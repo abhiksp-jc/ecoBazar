@@ -165,6 +165,8 @@ const Banners = () => {
     }
   };
 
+  // adding a comment 
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!formData.title.trim()) {
